@@ -1,0 +1,34 @@
+.tablewrap {
+    margin: 0px auto;
+    width: 800px;
+}
+.product {
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    height: 200px;
+    width: 800px;
+}
+.ending {
+    border-top: solid;
+    border-left:solid;
+    border-right:solid;
+    width:800px;
+}
+.section {
+    display: inline-block;
+    height: 200px;
+}
+.info {
+    border-left:solid;
+    height:200px;
+}
+.image {
+    height: 150px;
+    width : 255px;
+}
+.intro {
+    border-top:solid;
+    height: 40px;
+    width: 255px;
+}
