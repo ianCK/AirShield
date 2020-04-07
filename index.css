@@ -1,8 +1,9 @@
 .tablewrap {
     margin: 0px auto;
     width: 300px;
-    position:relative;
+    position: relative;
 }
+
 .product {
     border-top: solid;
     border-left: solid;
@@ -11,50 +12,69 @@
     width: 300px;
     position: relative;
 }
+
 .ending {
     border-top: solid;
-    border-left:solid;
-    border-right:solid;
+    border-left: solid;
+    border-right: solid;
     width: 300px;
     position: relative;
 }
-.section {
-    display: inline-block;
+
+.left_section {
     height: 200px;
-    position: relative;
-}
-.info {
-    border-left:solid;
-    height:200px;
-    position:relative;
-    
-}
-.image {
-    height: 150px;
-    width : 105px;
+    width: 100px;
     position: absolute;
     top: 0;
-    display:  flex;
-    align-items: center;
-    justify-content:  center;
+    left: 0;
 }
-.intro {
-    border-top:solid;
-    height: 50px;
-    width: 105px;
+
+.right_section {
+    height: 200px;
+    width: 200px;
     position: absolute;
-    bottom:0;
+    top: 0;
+    right: 0;
+}
+
+.info {
+    border-left: solid;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+}
+
+.image {
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    border-top: solid;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
     text-align: center;
 }
+
 img {
     width: auto;
-	height: auto;
-	max-width: 100%;
-	max-height: 100%; 
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
+
 .product_name {
-    font-size:13px;
+    font-size: 13px;
 }
+
 .price {
-    font-size:12px;
+    font-size: 12px;
 }
