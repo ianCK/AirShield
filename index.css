@@ -78,3 +78,12 @@ img {
 .price {
     font-size: 12px;
 }
+
+ul {
+    padding-left: 30px;
+    line-height: 25px;
+}
+
+body {
+    background-color: #e8ddd5;
+}
